@@ -1,1 +1,1 @@
-exports = require("../.prettierrc.json")
+exports = require('../.prettierrc.json')

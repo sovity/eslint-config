@@ -1,7 +1,8 @@
 {
     "name": "@sovity/style-config",
-    "version": "0.0.1",
+    "version": "0.0.5",
     "peerDependencies": {
+        "eslint": "^8.13.0",
         "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-prettier": "^4.0.0",
         "prettier": "^2.6.2"
