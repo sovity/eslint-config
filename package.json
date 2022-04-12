@@ -4,7 +4,9 @@
     "main": "eslint.js",
     "files": [
         "eslint.js",
-        "prettier.js"
+        "prettier.js",
+        ".eslintrc.json",
+        ".prettierrc.json"
     ],
     "exports": {
         ".": "./eslint.js",
