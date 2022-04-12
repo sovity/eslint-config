@@ -8,11 +8,6 @@
         ".eslintrc.json",
         ".prettierrc.json"
     ],
-    "exports": {
-        ".": "./eslint.js",
-        "./eslint": "./eslint.js",
-        "./prettier": "./prettier.js"
-    },
     "peerDependencies": {
         "eslint": "^8.13.0",
         "eslint-config-prettier": "^8.5.0",
