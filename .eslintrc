@@ -1,0 +1,78 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "prettier"
+    ],
+    "rules": {
+        "camelcase": "error",
+        "arrow-body-style": [
+            "error",
+            "always"
+        ],
+        "capitalized-comments": "error",
+        "consistent-return": "error",
+        "curly": [
+            "error",
+            "all"
+        ],
+        "eqeqeq": [
+            "error",
+            "smart"
+        ],
+        "func-names": "error",
+        "multiline-comment-style": "error",
+        "no-eval": "error",
+        "no-extend-native": "error",
+        "no-extra-bind": "error",
+        "no-lone-blocks": "error",
+        "no-lonely-if": "error",
+        "no-loop-func": "error",
+        "no-return-await": "error",
+        "no-throw-literal": "error",
+        "no-undef-init": "error",
+        "no-useless-call": "error",
+        "no-useless-concat": "error",
+        "no-useless-return": "error",
+        "no-var": "error",
+        "one-var-declaration-per-line": [
+            "error",
+            "always"
+        ],
+        "prefer-arrow-callback": "error",
+        "prefer-promise-reject-errors": "error",
+        "array-bracket-newline": [
+            "error",
+            "consistent"
+        ],
+        "array-bracket-spacing": [
+            "error",
+            "never"
+        ],
+        "array-element-newline": [
+            "error",
+            "consistent"
+        ],
+        "arrow-spacing": "error",
+        "block-spacing": "error",
+        "brace-style": "error",
+        "no-mixed-spaces-and-tabs": "error",
+        "no-multiple-empty-lines": "error",
+        "no-trailing-spaces": "error",
+        "object-curly-newline": [
+            "error",
+            {
+                "multiline": true
+            }
+        ],
+        "lines-around-comment": [
+            "error",
+            {
+                "beforeLineComment": true,
+                "allowBlockStart": false,
+                "allowClassStart": false,
+                "allowObjectStart": true,
+                "allowArrayStart": true
+            }
+        ]
+    }
+}
