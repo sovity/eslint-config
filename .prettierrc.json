@@ -8,5 +8,6 @@
     "useTabs": true,
     "bracketSameLine": true,
     "endOfLine": "lf",
+    "bracketSpacing": true,
     "embeddedLanguageFormatting": "off"
 }

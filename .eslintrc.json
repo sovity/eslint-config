@@ -1,8 +1,7 @@
 {
     "extends": [
         "eslint:recommended",
-        "eslint-config-prettier",
-        "prettier"
+        "plugin:prettier/recommended"
     ],
     "rules": {
         "camelcase": "error",
