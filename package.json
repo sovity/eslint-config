@@ -1,7 +1,6 @@
 {
     "name": "@sovity/eslint-config",
-    "version": "0.0.6",
-    "main": "eslint.js",
+    "version": "0.1.0",
     "files": [
         "eslint.js",
         "prettier.js",
