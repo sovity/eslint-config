@@ -11,11 +11,11 @@ Include it in your ESLint config.
 Write this as part of the configuration object in your `.eslintrc` file:
 
     "extends": [
-        "./node_modules/@sovity/style-config/.eslintrc"
+        "@sovity/eslint-config/eslint"
     ]
 
 Include the prettier rules.
 
 Write this as the only contents of your `.prettierrc` file:
 
-    "./node_modules/@sovity/style-config/.prettierrc"
+    "@sovity/eslint-config/prettier"
