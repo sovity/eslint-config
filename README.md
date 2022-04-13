@@ -4,7 +4,7 @@ The holy Ten Commandments for sovity Javascript projects. Follow them or die!
 # Using the Config
 Install the file 
 
-    npm i -D github:sovity/eslint-config
+    npm i -D github:sovity/eslint-config#v1.0
     
 Make sure you also install the peer dependencies: 
 - ´eslint´
