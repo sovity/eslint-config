@@ -5,6 +5,12 @@ The holy Ten Commandments for sovity Javascript projects. Follow them or die!
 Install the file 
 
     npm i -D github:sovity/eslint-config
+    
+Make sure you also install the peer dependencies: 
+- ´eslint´
+- ´prettier´
+- ´eslint-config-prettier´
+- ´eslint-plugin-prettier´ 
 
 Include it in your ESLint config.
 
