@@ -1,7 +1,6 @@
 {
     "extends": [
-        "eslint:recommended",
-        "plugin:prettier/recommended"
+        "eslint:recommended"
     ],
     "rules": {
         "camelcase": "error",
@@ -72,6 +71,59 @@
                 "allowClassStart": false,
                 "allowObjectStart": true,
                 "allowArrayStart": true
+            }
+        ],
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "never"
+        ],
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
+        "comma-spacing": [
+            "error",
+            {
+                "before": false,
+                "after": true
+            }
+        ],
+        "dot-location": [
+            "error",
+            "property"
+        ],
+        "func-call-spacing": [
+            "error",
+            "never"
+        ],
+        "implicit-arrow-linebreak": [
+            "error",
+            "beside"
+        ],
+        "key-spacing": [
+            "error",
+            {
+                "beforeColon": false,
+                "afterColon": true,
+                "mode": "strict"
+            }
+        ],
+        "max-len": [
+            "error",
+            {
+                "code": 132
             }
         ]
     }

@@ -2,10 +2,8 @@
     "name": "@sovity/eslint-config",
     "version": "1.0.0",
     "files": [
-        "eslint.js",
-        "prettier.js",
-        ".eslintrc.json",
-        ".prettierrc.json"
+        "index.js",
+        ".eslintrc.json"
     ],
     "peerDependencies": {
         "eslint": "^8.13.0",
@@ -13,12 +11,8 @@
         "eslint-plugin-prettier": "^4.0.0",
         "prettier": "^2.6.2"
     },
-    "dependencies": {
-        "eslint-config-prettier": "^8.5.0",
-        "eslint-plugin-prettier": "^4.0.0"
-    },
+    "dependencies": {},
     "devDependencies": {
-        "eslint": "^8.13.0",
-        "prettier": "^2.6.2"
+        "eslint": "^8.13.0"
     }
 }
