@@ -8,9 +8,9 @@ Install the file
     
 Make sure you also install the peer dependencies: 
 - ´eslint´
-- ´prettier´
-- ´eslint-config-prettier´
-- ´eslint-plugin-prettier´ 
+- ´prettier´ (optional)
+- ´eslint-config-prettier´ (optional)
+- ´eslint-plugin-prettier´ (optional)
 
 Include it in your ESLint config.
 
@@ -20,7 +20,7 @@ Write this as part of the configuration object in your `.eslintrc` file:
         "@sovity/eslint-config/eslint"
     ]
 
-Include the prettier rules.
+Include the prettier rules if you are also using prettier.
 
 Write this as the only contents of your `.prettierrc` file:
 
