@@ -38,6 +38,7 @@
             "always"
         ],
         "prefer-arrow-callback": "error",
+        "prefer-const": "error",
         "prefer-promise-reject-errors": "error",
         "array-bracket-newline": [
             "error",
