@@ -1,5 +1,5 @@
 # eslint-config
-The holy Ten Commandments for sovity Javascript projects. Follow them or die!
+The holy Ten Commandments for sovity Javascript projects.
 
 # Using the Config
 Install the file 
