@@ -8,6 +8,8 @@
         "prettier.js"
     ],
     "peerDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.35.1",
+        "@typescript-eslint/parser": "^5.35.1",
         "eslint": "^8.13.0",
         "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-prettier": "^4.0.0",
@@ -24,7 +26,6 @@
             "optional": true
         }
     },
-    "dependencies": {},
     "devDependencies": {
         "eslint": "^8.13.0"
     }
