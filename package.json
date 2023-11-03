@@ -3,6 +3,7 @@
     "version": "2.0.0",
     "files": [
         "eslint.js",
+        "eslint-prettier.js",
         ".eslintrc.json",
         ".prettierrc.json",
         "prettier.js"
